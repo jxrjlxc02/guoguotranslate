@@ -21,7 +21,7 @@ export async function getProjects(): Promise<Project[]> {
     
 }
 
-
+type project = /*unresolved*/ any
 
 export async function getProject(slug:string):Promise<project> {
 
