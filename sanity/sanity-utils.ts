@@ -2,6 +2,7 @@ import { Page } from '@/types/Page';
 import { Project } from '@/types/Project';
 import { createClient, groq} from "next-sanity";
 import clientConfig from './config/client-config';
+import project from './schemas/project-schema';
 
 
 export async function getProjects(): Promise<Project[]> {
